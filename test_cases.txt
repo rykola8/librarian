@@ -1,0 +1,23 @@
+Analizējiet funkcionalitāti Bibliotēkas uzskaites sistēmā un uzrakstiet atbilstošus testus.
+-----
+Testa konstrukcijai jābūt sekojošai:
+Priekšnosacījums -> Ievaddati -> Izvaddati (Given -> When -> Then)
+piem. Zinot ka kurss ir 1.0831, padodot 10 eur, rezultāts būs 10.83 usd
+-----
+
+2 veiksmīgi scenāriji (happy path):
+
+
+
+5 izmantošanas scenāriji (use-case):
+
+
+
+
+
+
+5 robežas scenāriji (edge-case):
+
+
+
+
