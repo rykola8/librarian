@@ -6,18 +6,31 @@ piem. Zinot ka kurss ir 1.0831, padodot 10 eur, rezultāts būs 10.83 usd
 -----
 
 2 veiksmīgi scenāriji (happy path):
+Lietotājs ievada daļu no grāmatas nosaukuma un iegūst pilnu grāmatas nosaukumu:
+    Lietotājs ieraksta "Brownfield" un iegūst pilnu grāmatas nosaukumu "Brownfield Application Development in .NET".
+
+Lietotājs var pievienot savu grāmatu:
+    Lietotājs izvēlas 4. funkciju, ievada nosaukumu, isbn, lappušu skaitu, autoru, izdošanas datumu, aprakstu, un grāmata tiek pievienota.
+
+4 izmantošanas scenāriji (use-case):
+
+1. Lietotājs var redzēt 10 populārākās īsās grāmatas, tas ir ērti, ja cilvēks vēlas kaut ko ātri izlasīt.
+2. Lietotājs var redzēt 10 garākās grāmatas, tas ir ērti, ja cilvēks vēlas izlasīt garu stāstu un iedziļināties tajā.
+3. Lietotājs var saglabāt pievienotās grāmatas failā.
+4. Lietotājs var redzēt, ka grāmata ir brīva, tas ir ērti, lai cilvēks zinātu, vai bibliotēkā ir viņam vajadzīgā grāmata.
 
 
 
-5 izmantošanas scenāriji (use-case):
+4 robežas scenāriji (edge-case):
 
-
-
-
-
-
-5 robežas scenāriji (edge-case):
-
+1. Lietotājs ir ievadījis vārdu valodā, kas nav angļu valoda
+    Lietotājs ievadīja nosaukumu "Мобильный агент", un programmatūra neko neatrada.
+2. Lietotājs grāmatu meklēšanā ievadīja nosaukumu "Mobile Agent*&", un programma parādīja "Atbilstošas grāmatas nav atrastas.".
+3. Lietotājs ievada isbn ar pēdiņām, atzīmējot grāmatu kā aizņemtu
+    Lietotājs ievada "1935182307", un programma parāda grāmata ar ISBN '"1935182307"' nav atrasta bibliotēkā.
+4. Lietotājs ievada isbn ar lielu ciparu skaitu.
+    Lietotājs ievada isbn 193518230767767786, un programma parāda grāmatu ar ISBN '193518230767767786', kas nav atrodama bibliotēkā. (mark book as taken)
+    
 
 
 

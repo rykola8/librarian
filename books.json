@@ -157,7 +157,8 @@
         "pageCount": 320,
         "authors": "William R. Cockayne and Michael Zyda, editors",
         "publishDate": "1997-03-01T00:00:00.000-0800",
-        "description": "Mobile Agents is the first book to give the reader the ability to create and use powerful mobile agents on the Internet."
+        "description": "Mobile Agents is the first book to give the reader the ability to create and use powerful mobile agents on the Internet.",
+        "taken": true
     },
     {
         "title": "Spring Dynamic Modules in Action",
@@ -181,7 +182,8 @@
         "pageCount": 325,
         "authors": "Rob Crowther",
         "publishDate": "2012-10-17T00:00:00.000-0700",
-        "description": "Quick and Easy HTML5 and CSS3 is written for the web designer or developer who wants a fast, example-oriented introduction to the new HTML and CSS features. After a quick review of the basics, you'll turn to what's new. Start by learning to apply important new elements and attributes by building your first real HTML5 pages. You'll then take a quick tour through the new APIs: Form Validation, Canvas, Drag & Drop, Geolocation and Offline Applications. You'll also discover how to include video and audio on your pages without plug-ins, and how to draw interactive vector graphics with SVG."
+        "description": "Quick and Easy HTML5 and CSS3 is written for the web designer or developer who wants a fast, example-oriented introduction to the new HTML and CSS features. After a quick review of the basics, you'll turn to what's new. Start by learning to apply important new elements and attributes by building your first real HTML5 pages. You'll then take a quick tour through the new APIs: Form Validation, Canvas, Drag & Drop, Geolocation and Offline Applications. You'll also discover how to include video and audio on your pages without plug-ins, and how to draw interactive vector graphics with SVG.",
+        "taken": false
     },
     {
         "title": "Seam in Action",
@@ -830,5 +832,14 @@
         "authors": "Rob Crowther, Joe Lennon, Ash Blue, , Greg Wanish",
         "publishDate": "2014-02-10T00:00:00.000-0800",
         "description": "HTML5 In Action provides a complete introduction to web development using HTML5. You'll explore every aspect of the HTML5 specification through real-world examples and code samples. It's much more than just a specification reference, though. It lives up to the name HTML5 in Action by giving you the practical, hands-on guidance you'll need to use key features."
+    },
+    {
+        "title": "Android",
+        "isbn": "458479849",
+        "pageCount": 456,
+        "authors": "hz",
+        "publishDate": "43849234",
+        "description": "dkfhasdkfhdkshdkasd",
+        "taken": false
     }
 ]
